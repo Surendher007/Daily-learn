@@ -1,11 +1,12 @@
 import React from 'react'
 import Card from './Card'
+import Tajmahal from './assets/tajmahal.jpg'
 
 function App() {
   let data = [
     {
       tittle:"Tajmahal",
-      image:"https://www.google.com/imgres?q=taj%20mahal&imgurl=https%3A%2F%2Fwww.travelandleisure.com%2Fthmb%2FwdUcyBQyQ0wUVs4wLahp0iWgZhc%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Ftaj-mahal-agra-india-TAJ0217-9eab8f20d11d4391901867ed1ce222b8.jpg&imgrefurl=https%3A%2F%2Fwww.travelandleisure.com%2Fattractions%2Flandmarks-monuments%2Ftaj-mahal-unique-facts-history&docid=xWlJWrpx74nYyM&tbnid=fURx2-4pDkXt8M&vet=12ahUKEwiv1f_bmJCHAxXRRmcHHSWsA-4QM3oECF4QAA..i&w=1500&h=938&hcb=2&ved=2ahUKEwiv1f_bmJCHAxXRRmcHHSWsA-4QM3oECF4QAA",
+      image:Tajmahal,
       summary:"The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan ( 1628– 1658) to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself"
     },
     {

@@ -17,6 +17,9 @@
    *const is never changed
    *not for reassign and reclare
 
+   let b = 1
+   let is a data type & b is a variable & = is assignment operatr & 1 is a value
+
 */
 
 //1. var
@@ -64,3 +67,6 @@ console.log(c)
 // console.log(c)
 // this part throe the identifier error b has been already declared
 
+
+let amount = 1000
+console.log("The amolunt is RS " + amount)

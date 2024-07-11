@@ -5,29 +5,43 @@
 let sound = document.querySelector('#message')
 sound.innerHTML = "hello surendher"
 
+let dis = document.querySelector('.message-two')
+dis.innerHTML = "welcome to dom selectors"
+
 // querryselectorAll
 
-let good = document.querySelectorAll('.li-one')
-for(let i =0; i<good.length; i++){
-    good[i].innerHTML = "not available"
+let mi = document.querySelectorAll('.li-one')
+for(let i =0;i<mi.length; i++){
+    mi[i].innerHTML = "love"
 }
 
 // getElementById selector
-let out = document.getElementById('message')
-out.innerHTML = "Welcome to DOM"
+
+let fi = document.getElementById('display')
+fi.innerHTML = "This is a getElementById"
 
 // getElementByClassName selector
-let print = document.getElementsByClassName('li-one')
-for(let i=0;i<print.length;i++){
-    print[i].style.color = "gray"
+
+let hi = document.getElementsByClassName('li-one')
+for(let i = 0; i<hi.length;i++){
+    hi[i].style.color = "blue"
 }
 
 // getElementByTagName
 let display = document.getElementsByTagName("li")
-display[0].innerHTML = "what are you doing"
+for(let i = 0;i<display.length;i++){
+display[i].innerHTML = "what are you doing"
+}
+
 
 let hoo = document.getElementsByTagName('ul')
 for(let i =0; i<hoo.length;i++){
     
 }
 
+// createElement
+
+for(let i =0; i<=1000;i++){
+    let si = document.createElement('li')
+    si.innerText = "food items"
+}
